@@ -1,0 +1,18 @@
+package loops;
+
+public class DoWhileTest {
+	
+	public static void main(String[] args) {
+		
+		// even the condition falis, it will execute atleast once
+		
+		int i=0;  // initialization
+		do {
+			System.out.println(i);  // execution
+			i++;          // increment /decrement      
+			
+		}while(i>10);    // condition
+		
+	}
+
+}
